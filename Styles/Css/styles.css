@@ -1,0 +1,109 @@
+body{
+    height:100%;
+    width:100%;
+    border-radius:1px;
+    border-color:slategrey;
+    border-style:solid;
+    padding:0px;
+    margin:0px;
+}
+
+header{
+    height:20%;
+    width:inherit;
+    border-radius:1px;
+    border-color:red;
+    border-style:solid;
+}
+
+main{
+    height: 100%;
+    width:inherit;
+    border-radius:1px;
+    border-color:blue;
+    border-style:solid;
+}
+
+footer{
+    height:10%;
+    width:inherit;
+    border-radius:1px;
+    border-color:green;
+    border-style:solid;
+}
+
+#header-logo{
+    height:40px;
+    width:auto;
+}
+
+#fb-logo{
+    height:40px;
+    width:auto;
+    display:inline-flex
+}
+
+#ig-logo{
+    height:40px;
+    width:auto;
+    display:inline-flex
+}
+
+.logo-nombre{
+    display:inline-flex;
+    padding-right:92%;
+    height:inherit;
+}
+
+.boton-redireccion{
+    display:inline-flex;
+    height:inherit;
+}
+
+.login{
+    height:100%;
+}
+
+.content{
+    height:inherit;
+    width:inherit;
+    display:flex;
+    justify-content: space-around;
+}
+
+.login-form{
+    display: inline-block;
+}
+
+.logo-login{
+    display: grid;
+}
+
+#formulario{
+    display: grid;
+}
+
+.logo-media{
+    display: inline-block;
+}
+
+.link-media{
+    display:inline-block;
+}
+
+.social-media {
+    display: inline-block;
+}
+
+.copyright {
+    display: inline-block;
+}
+
+.contact-us {
+    display: inline-block;
+}
+
+.social-copyright {
+    display: flex;
+    justify-content: space-between;
+}

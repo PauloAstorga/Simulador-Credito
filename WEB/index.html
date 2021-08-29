@@ -4,11 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/Css/styles.css">
     <title>Seguros Vip</title>
 </head>
 <body>
-    <div>
-        
-    </div>
+
+    <header>
+        <div class="div-header">
+            <div class="logo-nombre">
+                <a href="index.html">
+                    <img id="header-logo" src="../Images/home-logo.png">
+                </a>
+            </div>
+            <div class="boton-redireccion">
+                <button class="login">
+                    <a href="index.html">Inicio</a>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="login-form">
+                <div class="logo-login">
+                    <h4>SegurosVip</h4>
+                </div>
+                <div class="form-input">
+                    <form id="formulario" action="pago.jsp" method="POST">
+                        <input type="text" id="usr" name="usr" placeholder="Usuario"/>
+                        <input type="password" id="pwd" name="pwd" placeholder="Contraseña"/>
+
+                        <input type="submit" value="Iniciar Sesión"/>
+
+                        <a href="reestablece-pwd.jsp">¿Olvidó su contraseña?</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-copyright">
+            <div class="social-media">
+                <div class="logo-media">
+                    <div class="fb-logo">
+                        <img id="fb-logo" src="../Images/fb-png.png">
+                    </div>
+                    <div class="ig-logo">
+                        <img id="ig-logo" src="../Images/ig-png.png">
+                    </div>
+                </div>
+                <div class="link-media">
+                    <div class="fb-link">
+                        <a href="https://www.facebook.com/rodrigoignacio.corvalanmorales">Rodrigo Corvalán</a>
+                    </div>
+                    <div class="ig-link">
+                        <a href="https://www.instagram.com/rodriboo5384._/">Rodrigo Corvalán</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copy-content">
+                    <h5>SegurosVip ®</h5>
+                </div>
+            </div>
+            <div class="contact-us">
+                <div class="text-contact">
+                    <h4>Mail: pauloastorga.docs@gmail.com, rodrigoucorvalan@gmail.com</h4>
+                    <h4>Phone: +56945688252</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
