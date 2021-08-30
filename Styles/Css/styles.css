@@ -1,94 +1,93 @@
-body{
-    height:100%;
-    width:100%;
-    border-radius:1px;
-    border-color:slategrey;
-    border-style:solid;
-    padding:0px;
-    margin:0px;
-}
-
-header{
-    height:20%;
-    width:inherit;
-    border-radius:1px;
-    border-color:red;
-    border-style:solid;
-}
-
-main{
+body {
     height: 100%;
-    width:inherit;
-    border-radius:1px;
-    border-color:blue;
-    border-style:solid;
+    width: 100%;
+    border-radius: 1px;
+    border-color: slategrey;
+    border-style: solid;
+    padding: 0px;
+    margin: 0px;
 }
 
-footer{
-    height:10%;
-    width:inherit;
-    border-radius:1px;
-    border-color:green;
-    border-style:solid;
+header {
+    width: inherit;
+    border-radius: 1px;
+    border-color: red;
+    border-style: solid;
 }
 
-#header-logo{
-    height:40px;
-    width:auto;
+main {
+    height: 100%;
+    width: inherit;
+    border-radius: 1px;
+    border-color: blue;
+    border-style: solid;
 }
 
-#fb-logo{
-    height:40px;
-    width:auto;
-    display:inline-flex
+footer {
+    height: 10%;
+    width: inherit;
+    border-radius: 1px;
+    border-color: green;
+    border-style: solid;
 }
 
-#ig-logo{
-    height:40px;
-    width:auto;
-    display:inline-flex
+#header-logo {
+    height: 40px;
+    width: auto;
 }
 
-.logo-nombre{
-    display:inline-flex;
-    padding-right:92%;
-    height:inherit;
+#fb-logo {
+    height: 40px;
+    width: auto;
+    display: inline-flex
 }
 
-.boton-redireccion{
-    display:inline-flex;
-    height:inherit;
+#ig-logo {
+    height: 40px;
+    width: auto;
+    display: inline-flex
 }
 
-.login{
-    height:100%;
+.logo-nombre {
+    display: inline-flex;
+    padding-right: 92%;
+    height: inherit;
 }
 
-.content{
-    height:inherit;
-    width:inherit;
-    display:flex;
+.boton-redireccion {
+    display: inline-flex;
+    height: inherit;
+}
+
+.login {
+    height: 100%;
+}
+
+.content {
+    height: inherit;
+    width: inherit;
+    display: flex;
     justify-content: space-around;
 }
 
-.login-form{
+.login-form {
     display: inline-block;
 }
 
-.logo-login{
+.logo-login {
     display: grid;
 }
 
-#formulario{
+#formulario {
     display: grid;
 }
 
-.logo-media{
+.logo-media {
     display: inline-block;
 }
 
-.link-media{
-    display:inline-block;
+.link-media {
+    display: inline-block;
 }
 
 .social-media {
